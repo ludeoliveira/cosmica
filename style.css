@@ -1,0 +1,80 @@
+/* extralight 200 regular 400 bold 700 black 900 */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap');
+
+:root {
+    --amarelo: #FCEc5b;
+    --black: #303030;
+  }
+
+* {
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-color: var(--amarelo);
+    color: var(--black);
+    
+}
+
+
+
+/* 
+.page-title {
+    
+    font-weight: 200;
+    text-align: center;
+    font-size: 4em;
+}
+
+.game-info {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    background-color: var(--black);
+    height: 175px;
+    width: 125px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+
+}
+
+.card:hover { transform: scale(1.1); cursor: pointer;}
+
+.card.visible .card-back {
+ transform: rotateY(-180deg);
+}
+
+.card.visible .card-front {
+    transform: rotateY(0);
+}
+
+.card-front {
+    transform: rotateY(180deg);
+} */
