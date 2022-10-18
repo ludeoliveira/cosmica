@@ -1,5 +1,6 @@
 /* extralight 200 regular 400 bold 700 black 900 */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 :root {
     --amarelo: #FCEc5b;
@@ -23,10 +24,51 @@ body {
     /* flex-direction: column; */
     
 }
-
+h1, h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--amarelo);
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 2.5rem; 
+}
 h1 {
-    align-self: center;
-    padding: 20px;
+    transform: rotate(-0.01turn);
+    margin-top: 2rem;
+}
+
+h2 {
+    /* align-self: center; */
+    padding: 1px 2px;
+    transform: rotate(0.01turn);
+    font-weight: 200;
+    line-height: 2.5rem;
+    font-size: 2.5rem; 
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-galery {
+    margin-top: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid var(--amarelo);
+    color: var(--black);
+    font-weight: 400;
+    transform: rotate(-0.005turn);
+}
+
+.link-galery:hover {
+    background-color: var(--amarelo);
+    font-style: italic;
+}
+
+.playerLivesCount {
+    font-weight: 700;
 }
 
 section {
@@ -43,7 +85,9 @@ section {
     transform-style: preserve-3d;
     transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+    
 }
+
 
 .face, .back {
     width: 100%;
