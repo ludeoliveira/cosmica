@@ -1,0 +1,41 @@
+.photo-grid {
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-rows: 240px;
+    grid-auto-flow: dense;
+    margin: 2rem;
+}
+
+.card {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.span3rows {
+    grid-row: span 3 /auto;
+}
+
+.span3columns {
+    grid-column: span 3 / auto;
+}
+.span2rows {
+    grid-row: span 2 /auto;
+}
+
+.span2columns {
+    grid-column: span 2 / auto;
+}
+
+.span4rows {
+    grid-row: span 4 /auto;
+}
+
+.span4columns {
+    grid-column: span 4 / auto;
+}
+
+.pointer {
+    cursor: pointer;
+}

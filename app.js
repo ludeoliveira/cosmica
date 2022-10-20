@@ -2,7 +2,7 @@
 
 const section = document.querySelector("section");
 const playerLivesCount = document.querySelector("span");
-let playerLives = 20;
+let playerLives = 10;
 
 // link text
 
@@ -120,7 +120,7 @@ const restart = (text) => {
       section.style.pointerEvents = "all";
     }, 1000);
   });
-  playerLives = 20;
+  playerLives = 10;
   playerLivesCount.textContent = playerLives;
   setTimeout(() => window.alert(text), 1000);
 };
