@@ -21,32 +21,38 @@
 }
 
 .highlight{
-    background-color: var(--amarelo);
+background-color: var(--amarelo);
   font-style: italic;
   font-weight: 400;
 }
 
 .span3rows {
     grid-row: span 3 /auto;
+    position: relative;
 }
 
 .span3columns {
     grid-column: span 3 / auto;
+    position: relative;
 }
 .span2rows {
     grid-row: span 2 /auto;
+    position: relative;
 }
 
 .span2columns {
     grid-column: span 2 / auto;
+    position: relative;
 }
 
 .span4rows {
     grid-row: span 4 /auto;
+    position: relative;
 }
 
 .span4columns {
     grid-column: span 4 / auto;
+    position: relative;
 }
 
 .pointer {
@@ -57,4 +63,11 @@
     text-align: center;
     padding: 2rem;
     margin: 0 auto;
+}
+
+figcaption {
+    font-size: .8rem;
+    text-align: center;
+    position: relative;
+    top: 98%;
 }
